@@ -70,6 +70,11 @@ The Checker program validates the output file against a reference input:
  * The total length of the path matches the sum of all segments.
 
 ## Checker Usage
+Before using the Checker program for the first time, make it executable with the following command:
+```
+chmod +x Checker
+```
+
 The Checker program can be executed with the following command:
 ```
 $./Checker <input_file> <output_file>
