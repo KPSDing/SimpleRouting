@@ -4,6 +4,39 @@
  Design a program to find the shortest path on a 2D grid (M by N) from a
  starting point (source) to an endpoint (sink) while avoiding all obstacles (blocks)
 
+## Input Format
+```
+Syntax
+ Grid <gridWidth> <gridHeight>
+ Source <sourceX> <sourceY>
+ Sink <sinkX> <sinkY>
+ Block <totalNumOfBlocks>
+ <blockName> <lowerLeftX> <lowerLeftY> <blockWidth> <blockHeight>
+Example
+ Grid 10 10
+ Source 3 9
+ Sink 9 1
+ Block 2
+ B1 1 2 5 5
+ B2 6 8 3 2
+```
+
+## Output Format
+```
+Syntax
+ TotalLength <totallength>
+ Source <sourceX> <sourceY>
+ Bend <totalNumOfBends>
+ <bendX> <bendY>
+ Sink <sinkX> <sinkY>
+Example
+ TotalLength 14
+ Source 3 9
+ Bend 2
+ 3 7
+ 9 7
+ Sink 9 1
+```
 
 ## Program Requirements
 Your program should be executed by:
