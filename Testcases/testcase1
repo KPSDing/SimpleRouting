@@ -1,0 +1,6 @@
+Grid 10 10
+Source 3 9
+Sink 9 1
+Block 2
+B1 1 2 5 5
+B2 6 8 3 2
