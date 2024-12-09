@@ -7,35 +7,35 @@
 ## Input Format
 ```
 Syntax
- Grid <gridWidth> <gridHeight>
- Source <sourceX> <sourceY>
- Sink <sinkX> <sinkY>
- Block <totalNumOfBlocks>
- <blockName> <lowerLeftX> <lowerLeftY> <blockWidth> <blockHeight>
+    Grid <gridWidth> <gridHeight>
+    Source <sourceX> <sourceY>
+    Sink <sinkX> <sinkY>
+    Block <totalNumOfBlocks>
+    <blockName> <lowerLeftX> <lowerLeftY> <blockWidth> <blockHeight>
 Example
- Grid 10 10
- Source 3 9
- Sink 9 1
- Block 2
- B1 1 2 5 5
- B2 6 8 3 2
+    Grid 10 10
+    Source 3 9
+    Sink 9 1
+    Block 2
+    B1 1 2 5 5
+    B2 6 8 3 2
 ```
 
 ## Output Format
 ```
 Syntax
- TotalLength <totallength>
- Source <sourceX> <sourceY>
- Bend <totalNumOfBends>
- <bendX> <bendY>
- Sink <sinkX> <sinkY>
+    TotalLength <totallength>
+    Source <sourceX> <sourceY>
+    Bend <totalNumOfBends>
+    <bendX> <bendY>
+    Sink <sinkX> <sinkY>
 Example
- TotalLength 14
- Source 3 9
- Bend 2
- 3 7
- 9 7
- Sink 9 1
+    TotalLength 14
+    Source 3 9
+    Bend 2
+    3 7
+    9 7
+    Sink 9 1
 ```
 
 ## Program Requirements
