@@ -23,18 +23,18 @@ The Checker program validates the output file against a reference input:
 
 ### Validation Criteria
 1. Output Format Correct:
-  * Ensures the output file follows the specified syntax and structure.
+ * Ensures the output file follows the specified syntax and structure.
 2. Path Legality:
-  * No segment of the path crosses any block.
-  * All path segments lie within the grid.
-  * No diagonal moves are present.
+ * No segment of the path crosses any block.
+ * All path segments lie within the grid.
+ * No diagonal moves are present.
 3. Source and Sink:
-  * The output file correctly identifies the source and sink points as defined in the input.
+ * The output file correctly identifies the source and sink points as defined in the input.
 4. Bends:
-  * The bend points are valid and necessary.
-  * No redundant bends exist.
+ * The bend points are valid and necessary.
+ * No redundant bends exist.
 5. Path Length:
-  * The total length of the path matches the sum of all segments.
+ * The total length of the path matches the sum of all segments.
 
 ## Checker Usage
 The Checker program can be executed with the following command:
